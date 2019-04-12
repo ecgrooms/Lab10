@@ -10,7 +10,8 @@ import java.awt.Point;
  * Class to represent and define how a sinusoid is drawn
  * 
  * @author MoSho
- * @author _______________
+ * @author Erin Grooms
+ * 
  * @version April 11, 2019
  */
 public class Sinusoid extends Shape 
@@ -75,8 +76,8 @@ public class Sinusoid extends Shape
 			// TODO: calculate next x,y point
 			//y = yOffset + amplitude * sin(radians)
 			//x = xOffset + i * dx;
-			int xNext = ... // TODO:
-			int yNext = ... // TODO:
+			int xNext = x0 + amplitude * sin(rad); // TODO:
+			int yNext = y0 + i * dx; // TODO:
 			
 			// TODO: create a point and store it into the locations list
 		}
@@ -99,6 +100,8 @@ public class Sinusoid extends Shape
         int nPoints = location.length;
         
         // TODO: Draw a sequence of connected line segments to render a sinusoid
+        
+        
 
 	}
 
