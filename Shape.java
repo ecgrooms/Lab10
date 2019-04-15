@@ -18,7 +18,7 @@ public class Shape {
 	}
 	
 	public boolean isFilled() {
-		return false;
+		return filled;
 		
 	}
 	

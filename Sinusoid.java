@@ -76,10 +76,11 @@ public class Sinusoid extends Shape
 			// TODO: calculate next x,y point
 			//y = yOffset + amplitude * sin(radians)
 			//x = xOffset + i * dx;
-			int xNext = x0 + amplitude * sin(rad); // TODO:
+			int xNext = (int) (x0 + amplitude * Math.sin(rad)) ; // TODO:
 			int yNext = y0 + i * dx; // TODO:
 			
 			// TODO: create a point and store it into the locations list
+			location[i + 1] = new Point(xNext, yNext);
 		}
 	}
 
@@ -101,6 +102,7 @@ public class Sinusoid extends Shape
         
         // TODO: Draw a sequence of connected line segments to render a sinusoid
         
+        graphics.drawLine(location[0].x, location[0].y, location[1].x, location[1].y);
         
 
 	}
