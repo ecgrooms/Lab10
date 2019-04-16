@@ -104,7 +104,6 @@ public class Sinusoid extends Shape
         
         graphics.drawLine(location[0].x, location[0].y, location[1].x, location[1].y);
         
-
 	}
 
 }
