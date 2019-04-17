@@ -13,9 +13,8 @@ public class ShapeTest {
 		
 		Assert.assertEquals(Color.BLUE, s1.getColor());
 		Assert.assertEquals(true, s1.isFilled());
-		Assert.assertEquals(200, s1.location);
-
-		
+		Assert.assertNotEquals(200, s1.location);
+	
 	}
 		
 
